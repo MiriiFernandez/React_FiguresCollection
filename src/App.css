@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+/* NAVBAR */
+.navbar{
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  justify-content: space-evenly;
+  background: #F26B1D;
+}
+
+.Iconos_navbar{
+  width: 10vmin;
+  height: 10vmin;
+}
+
+.Iconos_navbar_home{
+  width: 12vmin;
+  height: 10vmin;
+}
