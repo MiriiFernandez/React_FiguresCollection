@@ -4,16 +4,14 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import "./index.css";
 import App from "./App";
-import Navbar from "./Componentes/Navbar";
+import Inicio from "./Componentes/Inicio";
+
 
 const browserRouter = createBrowserRouter([
   {
-    path: "/",
-    element: <Navbar></Navbar>,
-  },
-  {
-    
-  },
+    path: '/',
+    element: <Inicio></Inicio>,
+  }
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

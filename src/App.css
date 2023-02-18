@@ -1,3 +1,9 @@
+/* TIPOGRAFIA */
+@font-face {
+  font-family: "cuerpo";
+  src: url("../public/font/LEMONMILK-Regular.woff2") format("woff2");
+}
+
 .App {
   text-align: center;
 }
@@ -54,4 +60,52 @@
 .Iconos_navbar_home{
   width: 12vmin;
   height: 10vmin;
+}
+
+/* FOOTER */
+.Footer{
+  display: flex;
+  height: 94px;
+  background: #F26B1D;
+}
+
+ul,li{
+  list-style: none;
+  padding-left: 8px;
+  font-family: "cuerpo";
+}
+
+.terminos{
+  padding-right: 10px;
+  font-size: 12px;
+}
+
+.copy{
+  font-size: 9px;
+  margin-top: 20px;
+}
+
+a{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.contacto{
+  display: flex;
+  margin-top: 20px;
+
+}
+
+.contacto a{
+  font-family: "cuerpo";
+  margin-left: 7px;
+}
+
+.Iconos_navbar_mssg{
+  width: 8vmin;
+  height: 8vmin;
+  margin-right: 8px;
+ margin-left: 5px;
 }
